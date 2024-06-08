@@ -1,0 +1,136 @@
+const en = {
+  common: {
+    ok: "Guardar",
+    cancel: "Cancelar",
+    back: "Atrás",
+    logOut: "Cerrar sesión",
+    edit: "Editar",
+    delete: "Borrar",
+    error: "Error",
+    days: "{{number}} Días",
+    exercises: "{{number}} ejercicios",
+    series: "{{number}} series",
+    hello: "Hola",
+  },
+  alert: {
+    removeAccount: "¿Quieres eliminar esta cuenta? Toda la información sería eliminada.",
+    remove: "¿Quieres eliminar esto?",
+    createSuccess: "Agregar nuevo éxito",
+    updateSuccess: "Editar éxito",
+    deleteSuccess: "Eliminar éxito",
+    registerSuccess: "Cuenta creada con éxito",
+    sendNewPassword: "Nosotras enviamos una nueva contraseña por email",
+    changePassword: "Contraseña actualizada correctamente.",
+    createProgressSuccess: "Peso registrado correctamente",
+    createCategorySuccess: "Rutina creada con éxito",
+    createRoutineSuccess: "Entrenamiento creado con éxito",
+    createWorkoutSuccess: "Ejercicio añadido con éxito",
+    updateCategorySuccess: "Rutina editada con éxito",
+    updateRoutineSuccess: "Entrenamiento editado con éxito",
+    updateWorkoutSuccess: "Ejercicio editado con éxito.",
+    deleteAccountSuccess: "Cuenta eliminada con éxito",
+    deleteCategorySuccess: "Rutina eliminada con éxito",
+    deleteRoutineSuccess: "Entrenamiento eliminado con éxito",
+    deleteWorkoutSuccess: "Ejercicio eliminado con éxito",
+  },
+  dashboardScreen: {
+    menu1: "Entrenamiento",
+    submenu1: "Presiona para crear una rutina de entrenamiento",
+    menu2: "Peso corporal",
+    submenu2: "Empieza a registrar tu peso corporal",
+    menu3: "Objetivos",
+    submenu3: "Presiona para ver tus últimos registros",
+  },
+  userInformation: {
+    welcome: "Bienvenido a EasyWorkout",
+  },
+  errorScreen: {
+    title: "Something went wrong!",
+    friendlySubtitle:
+      "This is the screen that your users will see in production when an error is thrown. You'll want to customize this message (located in `app/i18n/en.ts`) and probably the layout as well (`app/screens/ErrorScreen`). If you want to remove this entirely, check `app/app.tsx` for the <ErrorBoundary> component.",
+    reset: "RESTABLECER APLICACIÓN",
+    traceTitle: "Error de la pila %{name}",
+  },
+  emptyStateComponent: {
+    generic: {
+      heading: "Tan vacía ... tan triste",
+      content:
+        "Aún no se han encontrado datos. Intente hacer clic en el botón para actualizar o recargar la aplicación.",
+      button: "Intentemos esto de nuevo",
+    },
+  },
+  errors: {
+    invalidEmail: "Dirección de correo electrónico no válida",
+    requiredPassword: "Contraseña es requerido",
+    requiredEmail: "Email es requerido",
+    requiredValue: "Se requiere valor",
+    requiredTitle: "Se requiere un nombre",
+    requiredExercise: "Se requiere ejercicio",
+  },
+  loginScreen: {
+    signIn: "Iniciar sesión",
+    email: "Email",
+    password: "Contraseña",
+    forgotPassword: "Has olvidado la contraseña?",
+    registerDescription: "No tienes cuenta? ",
+    register: "Regístrate",
+  },
+  registerScreen: {
+    title: "Regístrate",
+    fullName: "Nombre usuario",
+    email: "Email",
+    password: "Contraseña",
+    confirmPassword: "Confirmar contraseña",
+    currentPassword: "Contraseña actual",
+    button: "Registrarse",
+  },
+  forgotpasswordScreen: {
+    title: "Has olvidado tu contraseña",
+    email: "Email",
+    button: "Enviar",
+  },
+  routeListScreen: {
+    title: "Rutinas",
+    titleDetail: "Rutinas {{name}}",
+    noData: "Presiona + para crear una rutina de entrenamiento",
+    tab1: "Personalizadas",
+    tab2: "Predefinidas",
+    tab3: "Entrenamientos",
+    
+  },
+  bottomNavigator: {},
+  progressForm: {
+    label: "Peso corporal",
+    placeholder: "Hoy: Añade tu peso corporal",
+    button: "Guardar",
+  },
+  profileScreen: {
+    config: "CONFIGURACIÓN",
+    changePassword: "Cambiar contraseña",
+    unitLabel: "Unidad de peso corporal",
+    topic: "Tema",
+    language: "Idioma",
+    contact: "Contacto: easyworkout@gmail.com",
+    logout: "Cerrar sesión",
+    delete: "Eliminar cuenta",
+  },
+  progressScreen: {
+    title: "Estadísticas",
+    summary: "Último registro",
+    history: "Registros",
+  },
+  categoryForm: {
+    title: "Rutina 1",
+  },
+  routineForm: {
+    title: "Día 1",
+  },
+  workoutForm: {
+    title: "Ejercicio",
+    exercise: "Nº series",
+    picker: "There are {{number}} exercises",
+  },
+}
+
+export default en
+export type Translations = typeof en

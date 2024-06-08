@@ -1,0 +1,1 @@
+{"version":3,"file":"signin.entity.js","sourceRoot":"","sources":["../../../src/auth/entities/signin.entity.ts"],"names":[],"mappings":";;;AAAA,iEAAqD;AAErD,MAAa,YAAa,SAAQ,kBAAI;IAGpC,YAAY,OAA8B;QACxC,KAAK,CAAC,OAAO,CAAC,CAAC;QACf,MAAM,CAAC,MAAM,CAAC,IAAI,EAAE,OAAO,CAAC,CAAC;IAC/B,CAAC;CACF;AAPD,oCAOC"}
